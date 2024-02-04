@@ -10,7 +10,7 @@ export const isAuthenticated = async (
   if (!req.user)
     return res.status(401).json({
       message: "Unauthorized",
-      redirect: config.GOOGLE.UNAUTHORIZED_REDIRECT_URL,
+      // redirect: config.GOOGLE.UNAUTHORIZED_REDIRECT_URL,
     });
 
   return next();
