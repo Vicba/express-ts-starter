@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Environment variables
+.env
+.env*.local
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE settings
+.idea
+.vscode
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+bin/
+obj/
+lib/
+test/
+*.iml
+*.o
+*.a
+*.out
+*.suo
+*.pdb
+*.idb
+*.exp
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# NPM
+package-lock.json
+
+# TypeScript
+*.tsbuildinfo
